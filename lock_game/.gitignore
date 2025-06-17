@@ -1,0 +1,95 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swo
+*.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+*.swp
+
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/podhelper.rb
+**/ios/Runner/GeneratedPluginRegistrant.*
+# **/ios/Runner.xcworkspace
+# **/ios/Runner.xcodeproj/project.xcworkspace
+# **/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+# **/ios/Flutter/flutter_assets/
+
+# Android specific
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/gradle.properties
+# **/android/app/src/main/AndroidManifest.xml
+
+# macOS specific
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/FlutterAssemembledApp.framework
+**/macos/Flutter/FlutterAssembledDylib.dylib
+
+# Linux specific
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+**/linux/flutter/ephemeral/
+**/linux/CMakeLists.txt.user
+
+# Windows specific
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+**/windows/flutter/ephemeral/
+**/windows/runner/Debug/
+**/windows/runner/Release/
+**/windows/runner/Profile/
+**/windows/CMakeLists.txt.user
+
+# Web specific
+**/web/flutter_bootstrap.js
+**/web/main.dart.js
+**/web/assets/assets/
+**/web/assets/fonts/
+**/web/assets/packages/
+
+# IDE specific
+.idea/
+.vscode/
+*.iml
+*.ipr
+
+# Dart tool specific
+.dart_tool/
+pubspec.lock # Typically version controlled, but can cause issues with automated tools if many files change
+# If pubspec.lock is frequently causing "too many files changed" errors with tools,
+# and your team agrees, you might consider ignoring it for the tool's run,
+# but it's generally recommended to track it.
+# For this tool, if it continues to be an issue, we might need to temporarily ignore it.
+# For now, let's keep it tracked as is standard.
+
+# Test output
+/coverage/
+/test/.test_cache/

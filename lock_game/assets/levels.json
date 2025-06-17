@@ -1,0 +1,26 @@
+[
+  {
+    "level": 1,
+    "category": "general",
+    "instructions": [
+      "Quelle est la couleur du cheval blanc d'Henri IV ?"
+    ],
+    "solution": "BLANC"
+  },
+  {
+    "level": 2,
+    "category": "math",
+    "instructions": [
+      "Combien font 2 + 2 * 2 ?"
+    ],
+    "solution": "6"
+  },
+  {
+    "level": 3,
+    "category": "logic",
+    "instructions": [
+      "Si un train électrique va vers le nord à 100km/h et que le vent souffle vers l'ouest à 10km/h, dans quelle direction va la fumée ?"
+    ],
+    "solution": "PAS DE FUMEE"
+  }
+]
